@@ -1,0 +1,61 @@
+// background color #F3F4F9
+// accent color #FF9900
+// header font color #2C211B
+// paragraph font color #6A6A68
+
+.hello {
+    color: #FF9900;
+    font-family: 'Apercu Pro Bold';
+    font-size: 30px;
+}
+
+.name {
+    color: #6A6A68;
+    font-family: 'Apercu Pro Bold';
+    font-size: 30px;
+}
+
+.position {
+    color: #2C211B;
+    font-family: 'Fjalla One';
+    font-size: 80px;
+}
+
+.intro {
+    color: #6A6A68;
+    font-family: 'Apercu Pro Regular';
+    font-size: 16px;
+}
+
+.landing {
+    padding-top: 175px;
+    padding-left: 125px;
+    display: inline-block;
+}
+
+.graphic {
+    // height: 100px;
+    width: 400px;
+    height: undefined;
+    padding-left: 50px;
+    margin: 0;
+}
+
+.resume {
+    padding-top: 20px;
+}
+
+.resumeButton {
+    color: #6A6A68 !important;
+    font-family: 'Apercu Pro Bold' !important;
+    border-color: #FF9900 !important;
+}
+
+.resumeButton:hover {
+    background-color: #FF9900 !important;
+    color: white !important;
+}
+
+.noLink {
+    text-decoration: none;
+}

@@ -1,0 +1,83 @@
+// background color #F3F4F9
+// accent color #FF9900
+// header font color #2C211B
+// paragraph font color #6A6A68
+
+.button {
+    color: #6A6A68 !important;
+    font-family: 'Apercu Pro Bold' !important;
+
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.aayushiButton {
+    color: #2C211B !important;
+    font-family: 'Fjalla One' !important;
+    font-size: 20px !important;
+
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+
+
+
+.buttonGroup {
+    // float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+.App {
+    background-color: #F3F4F9;
+    min-height: 100vh;
+}
+
+.nameHeader {
+    font-family: 'Fjalla One';
+    color: #2C211B !important;
+}
+
+.sectionHeader {
+    font-family: 'Apercu Pro Bold';
+    color: #6A6A68 !important;
+}
+
+
+
+
+
+// import fonts
+
+@font-face {
+	font-family: 'Fjalla One';
+	src: local('FjallaOne-Regular'), ur;
+}
+
+@font-face {
+	font-family: 'Apercu Pro Bold';
+	src: local('Apercu Pro Bold'), url(./fonts/ApercuPro-Bold.otf) format('opentype');
+}
+
+@font-face {
+	font-family: 'Apercu Pro Regular';
+	src: local('Apercu Pro Regular'), url(./fonts/ApercuPro-Regular.otf) format('opentype');
+}
+
+@font-face {
+	font-family: 'Apercu Pro Italic';
+	src: local('Apercu Pro Italic'), url(./fonts/ApercuPro-Italic.otf) format('opentype');
+}
+
