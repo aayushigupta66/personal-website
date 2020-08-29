@@ -14,25 +14,34 @@
 }
 
 .aayushiButton {
-    color: #2C211B !important;
-    font-family: 'Fjalla One' !important;
-    font-size: 20px !important;
+    color: #2C211B;
+    font-family: 'Fjalla One';
+    font-size: 20px;
 
-    padding-right: 30px !important;
-    padding-left: 30px !important;
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border-color: transparent;
+    border: none;
+    outline: none;
+    background-color: transparent;
 }
 
-
-
+.aayushiButton:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
 
 .buttonGroup {
-    // float: right;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+
+    display: flex;
+    justify-content: space-between;
 }
 
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Work.scss';
+import './Home.scss';
 
 import graphic from '../img/graphic.png';
 import pdf from '../resume.pdf';
@@ -9,6 +9,8 @@ class Work extends Component {
   render() {
     return (
       <div>
+
+        {/* landing page */}
         <div className='landing'>
           <span className='hello'>HELLO, </span>
           <span className='name'>I'M AAYUSHI GUPTA.</span>
@@ -27,6 +29,11 @@ class Work extends Component {
           </div>
         </div>
         <img className='graphic' src={graphic} />
+
+        {/* work experience */}
+        
+
+
       </div>
     );
   }
