@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "87b833ae20cda8682d2e48ae2b3fa4c6",
+    "revision": "cecd237b164a65630a652044fce131e1",
     "url": "/index.html"
   },
   {
-    "revision": "a3779eec62888b651b48",
-    "url": "/static/css/main.7b914542.chunk.css"
+    "revision": "e076de0a557f9303bca3",
+    "url": "/static/css/main.1baf5fa1.chunk.css"
   },
   {
     "revision": "90a13c89783096724680",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.1214fe1d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a3779eec62888b651b48",
+    "revision": "e076de0a557f9303bca3",
     "url": "/static/js/main.4f04568b.chunk.js"
   },
   {
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "42bb1a1ede96c27e83b17f86a54a789d",
     "url": "/static/media/ApercuPro-Regular.42bb1a1e.otf"
+  },
+  {
+    "revision": "a92ec20157a6211a82561713ed254e89",
+    "url": "/static/media/FjallaOne-Regular.a92ec201.ttf"
   },
   {
     "revision": "f472b2a6879c88f157d23f1aa6e08202",
