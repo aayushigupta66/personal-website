@@ -31,7 +31,11 @@ class Work extends Component {
         <img className='graphic' src={graphic} />
 
         {/* work experience */}
+        <div>
+          
+
         
+        </div>
 
 
       </div>
