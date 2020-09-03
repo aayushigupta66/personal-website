@@ -8,7 +8,7 @@ import Button from '@material-ui/core/Button';
 class Work extends Component {
   render() {
     return (
-      <div>
+      <div className='home'>
 
         {/* landing page */}
         <div className='landing'>

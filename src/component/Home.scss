@@ -3,6 +3,13 @@
 // header font color #2C211B
 // paragraph font color #6A6A68
 
+.home {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
+
 .hello {
     color: #FF9900;
     font-family: 'Apercu Pro Bold';
@@ -28,16 +35,15 @@
 }
 
 .landing {
-    padding-top: 175px;
-    padding-left: 125px;
     display: inline-block;
 }
 
 .graphic {
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     height: undefined;
-    padding-left: 50px;
-    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .resume {
