@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.aaccd1f8.chunk.css",
-    "main.js": "/static/js/main.af8ed6c5.chunk.js",
-    "main.js.map": "/static/js/main.af8ed6c5.chunk.js.map",
+    "main.css": "/static/css/main.b193a6af.chunk.css",
+    "main.js": "/static/js/main.d2a6b407.chunk.js",
+    "main.js.map": "/static/js/main.d2a6b407.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ce89729d.js",
     "runtime-main.js.map": "/static/js/runtime-main.ce89729d.js.map",
     "static/js/2.1214fe1d.chunk.js": "/static/js/2.1214fe1d.chunk.js",
     "static/js/2.1214fe1d.chunk.js.map": "/static/js/2.1214fe1d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d6b53bcb4a2a1120d1919df804804036.js": "/precache-manifest.d6b53bcb4a2a1120d1919df804804036.js",
+    "precache-manifest.5a324aaf1d9204479f18e8fc0dae0069.js": "/precache-manifest.5a324aaf1d9204479f18e8fc0dae0069.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.aaccd1f8.chunk.css.map": "/static/css/main.aaccd1f8.chunk.css.map",
+    "static/css/main.b193a6af.chunk.css.map": "/static/css/main.b193a6af.chunk.css.map",
     "static/js/2.1214fe1d.chunk.js.LICENSE.txt": "/static/js/2.1214fe1d.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/static/media/FjallaOne-Regular.a92ec201.ttf",
     "static/media/graphic.png": "/static/media/graphic.f472b2a6.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.ce89729d.js",
     "static/js/2.1214fe1d.chunk.js",
-    "static/css/main.aaccd1f8.chunk.css",
-    "static/js/main.af8ed6c5.chunk.js"
+    "static/css/main.b193a6af.chunk.css",
+    "static/js/main.d2a6b407.chunk.js"
   ]
 }
