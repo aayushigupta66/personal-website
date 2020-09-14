@@ -3,18 +3,18 @@ import './Home.scss';
 
 import graphic from '../img/graphic.png';
 import pdf from '../resume.pdf';
-import Button from '@material-ui/core/Button';
 
 class Work extends Component {
   render() {
     return (
-      <div className='home'>
+      <a id='home'>
+      <div className='home' >
 
         {/* landing page */}
         <div className='landing'>
           <span className='hello'>HELLO, </span>
           <span className='name'>I'M AAYUSHI GUPTA.</span>
-          <div>
+          <div className='noPadding'>
             <span className='position'>SOFTWARE ENGINEER</span>
           </div>
           <div>
@@ -22,23 +22,27 @@ class Work extends Component {
           </div>
           <div className='resume'>
             <a className='noLink' href={pdf} target="_blank">
-              <Button variant='outlined' className='resumeButton'>
-                VIEW RESUME
-              </Button>
+              <button type="button" class="btn btn-outline-light resumeButton" >VIEW RESUME</button>
             </a>
           </div>
         </div>
-        <img className='graphic' src={graphic} />
 
-        {/* work experience */}
-        <div>
+        <div className='graphicPadding'> 
+          <img className='graphic' src={graphic} />
+        </div>
           
 
-        
         </div>
 
+        {/* work experience */}
+        <div id='work'>
+          
+        </div>  
+        
 
-      </div>
+
+      
+      </a>
     );
   }
 }

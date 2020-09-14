@@ -8,6 +8,7 @@
     padding-right: 10%;
     padding-top: 12%;
     padding-bottom: 12%;
+    width: 100%;
 }
 
 .hello {
@@ -38,12 +39,16 @@
     display: inline-block;
 }
 
+.graphicPadding {
+    padding-left: 5%;
+    padding-right: 5%;
+    float: right;
+}
+
 .graphic {
     max-width: 400px;
     width: 100%;
     height: undefined;
-    padding-left: 5%;
-    padding-right: 5%;
 }
 
 .resume {
@@ -54,6 +59,11 @@
     color: #FF9900 !important;
     font-family: 'Apercu Pro Bold' !important;
     border-color: #FF9900 !important;
+    font-size: 14px !important;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
 }
 
 .resumeButton:hover {
@@ -61,6 +71,9 @@
     color: white !important;
 }
 
-.noLink {
-    text-decoration: none;
+.noPadding {
+    padding: 0px !important;
+    margin-top: -10px !important;
+    margin-bottom: -10px !important;
 }
+

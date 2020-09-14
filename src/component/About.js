@@ -7,7 +7,7 @@ import profile from '../img/profile.jpeg';
 class About extends Component {
   render() {
     return (
-        <div>
+        <div id='about'>
           {/* <div className='profilePadding'>
            <img src={profile} className='profile' />
           </div>

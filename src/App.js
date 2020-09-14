@@ -9,6 +9,10 @@ import About from './component/About';
 
 import Button from '@material-ui/core/Button';
 
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+
 function App() {
 
   const [page, setPage] = useState('home');
@@ -25,26 +29,23 @@ function App() {
   return (
     <div className='App'>
       {/* navbar */}
-      <div className='buttonGroup'>
-        <div>
-          <button className='aayushiButton'
-            onClick={() => { setPage('home') }}>
-              AAYUSHI GUPTA
-          </button>
-        </div>
-        <div>
-          <Button className='button'
-            onClick={() => { setPage('about') }}>
-              WORK
-          </Button>
-          <Button className='button'
-            onClick={() => { setPage('about') }}>
-              ABOUT
-          </Button>
+        <div className='buttonGroup'>
+        <Navbar collapseOnSelect expand="lg" >
+          <Navbar.Brand className='aayushiButton' href="#home" onClick={() => { setPage('home') }}>AAYUSHI GUPTA</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="mr-auto">
+            </Nav>
+            <Nav>
+              <Nav.Link className='button' href="#work" onClick={() => { setPage('about') }}>WORK</Nav.Link>
+              <Nav.Link className='button' eventKey={2} href="#about" onClick={() => { setPage('about') }}>ABOUT</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
         </div>
         
-      </div>
-      
+    
+
       {/* redirect pages */}
       {returnPage()}
     </div>
