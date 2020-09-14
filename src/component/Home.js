@@ -14,7 +14,7 @@ class Work extends Component {
         <div className='landing'>
           <span className='hello'>HELLO, </span>
           <span className='name'>I'M AAYUSHI GUPTA.</span>
-          <div className='noPadding'>
+          <div>
             <span className='position'>SOFTWARE ENGINEER</span>
           </div>
           <div>
