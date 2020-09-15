@@ -105,12 +105,12 @@
 
     padding-right: 6%;
     padding-left: 6%;
-    padding-top: 5%;
+    // padding-top: 5%;
     padding-bottom: 9%;
 }
 
 .paragraph {
-    padding: 9% 0;
+    padding: 4% 0;
 }
 
 .lines {
@@ -120,13 +120,16 @@
 .aboutTitle {
     color: #2C211B;
     font-family: 'Fjalla One';
-    font-size: 250%;
+    font-size: 300%;
+    // line-height: 100%;
     text-align: center;
 }
 
 .center {
     padding-top: 6%;
     text-align: center;
+    padding-bottom: 4%;
+
 }
 
 .box {
