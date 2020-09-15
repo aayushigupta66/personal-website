@@ -28,6 +28,8 @@ function App() {
 
   return (
     <div className='App'>
+      <a id='home'> </a>
+
       {/* navbar */}
         <div className='buttonGroup'>
         <Navbar collapseOnSelect expand="lg" >
@@ -38,7 +40,7 @@ function App() {
             </Nav>
             <Nav>
               <Nav.Link className='button' href="#work" onClick={() => { setPage('about') }}>WORK</Nav.Link>
-              <Nav.Link className='button' eventKey={2} href="#about" onClick={() => { setPage('about') }}>ABOUT</Nav.Link>
+              <Nav.Link className='button' eventKey={2} href="#about" onClick={() => { setPage('home') }}>ABOUT</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
