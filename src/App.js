@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 import Home from './component/Home';
 import About from './component/About';
+import Work from './component/Work';
 
 import Button from '@material-ui/core/Button';
 
@@ -23,6 +24,8 @@ function App() {
         return <Home />;
       case 'about': 
         return <About />;
+      case 'work':
+        return <Work />;
     }
   }
 
@@ -39,8 +42,8 @@ function App() {
             <Nav className="mr-auto">
             </Nav>
             <Nav>
-              <Nav.Link className='button' href="#work" onClick={() => { setPage('about') }}>WORK</Nav.Link>
-              <Nav.Link className='button' eventKey={2} href="#about" onClick={() => { setPage('home') }}>ABOUT</Nav.Link>
+              <Nav.Link className='button' href="#work" onClick={() => { setPage('work') }}>WORK</Nav.Link>
+              <Nav.Link className='button' eventKey={2} href="#about" onClick={() => { setPage('about') }}>ABOUT</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

@@ -37,37 +37,8 @@ class Work extends Component {
 
       
         {/* about me */}
-        <a id='about'>    </a>
-        <div className='aboutMe'>
+        {/* <a id='about'>    </a> */}
         
-          <div className='whiteBlock box'>
-            
-            <div className='center'>
-              <span className='aboutTitle'>ABOUT ME</span>
-            </div>
-
-            <div> 
-              <img className='pfp' src={profile} />
-            </div> 
-
-            <div className='paragraph'>
-              
-
-              <div className='lines'>
-              <span className='fontSize'>Nice to meet you - I'm Aayushi! 👋</span> 
-              </div>
-
-              <div className='lines'>
-              <span className='fontSize'>I'm a fourth-year Computer Science and Statistics major at the University of Illinois at Urbana-Champaign looking to gain industry experience and apply my problem-solving skills.</span>
-              </div>
-              
-              <div className='lines'>
-              <span className='fontSize'>As a frontend developer, I am passionate about tying design decisions to desired outcomes to address the central challenge of creating good user experiences. </span>
-              </div>
-            </div>
-
-          </div>
-        </div>  
 
      
 
