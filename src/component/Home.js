@@ -19,7 +19,7 @@ class Work extends Component {
             <span className='position'>SOFTWARE ENGINEER</span>
           </div>
           <div>
-            <span className='intro'>Undergrad student @ UIUC seeking full time job as a frontend developer</span>
+            <span className='intro'>Undergrad student @ UIUC seeking a full time job as a frontend developer</span>
           </div>
           <div className='resume'>
             <a className='noLink' href={pdf} target="_blank">
