@@ -2,7 +2,7 @@ import React, { useState, setState, Component } from 'react';
 import './main.scss';
 import pdf from './resume.pdf';
 
-import { BrowserRouter as Router, Switch, Route, Link, Redirect } from 'react-router-dom';
+import { HashRouter, Router, Switch, Route, Link, Redirect } from 'react-router-dom';
 
 import LoadingBar from 'react-top-loading-bar'
 
@@ -50,9 +50,7 @@ function App() {
       {/* redirect pages */}
       <Switch>
         <Route exact path={process.env.PUBLIC_URL + '/home'} component={Home} />
-        <Route exact path={process.env.PUBLIC_URL + '/'}>
-          <Redirect to="/home" />
-        </Route>
+        <Route exact path={process.env.PUBLIC_URL + '/'} component={Home} />
         <Route exact path={process.env.PUBLIC_URL + '/work'} component={Work} />
         <Route exact path={process.env.PUBLIC_URL + '/design'} component={Design} />
         <Route exact path={process.env.PUBLIC_URL + '/about'} component={Work} />
