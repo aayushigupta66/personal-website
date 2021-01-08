@@ -25,18 +25,35 @@ import past from '../img/design/past.jpg';
 import chrysler from '../img/design/chrysler.jpg';
 import cover from '../img/design/cover.jpg';
 
+// ui / ux
+import coverme1 from '../img/design/coverme1.png';
+import coverme2 from '../img/design/coverme2.png';
+import coverme3 from '../img/design/coverme3.png';
+
+import opico1 from '../img/design/opico1.png';
+import opico2 from '../img/design/opico2.png';
+import opico3 from '../img/design/opico3.png';
+
 
 const images = [
-    cover,
-    chrysler,
+    coverme1,
+    coverme2,
+    coverme3,
+
+    opico1,
+    // opico2,
+    opico3,
+    
     past, 
     future,
-    
+
     img8,
     img9,
     img7,
     img2,
 
+    cover,
+    chrysler,
     img6,
     img10,
     img11,
@@ -47,7 +64,7 @@ const images = [
     
 ];
 
-const columnsCountBreakPoints = { 350: 1, 750: 2, 900: 3 };
+const columnsCountBreakPoints = { 250: 1, 750: 2, 1500: 3 };
 
 
 class Work extends Component {
