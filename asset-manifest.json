@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.6d5876ea.chunk.css",
-    "main.js": "/static/js/main.dc77a01c.chunk.js",
-    "main.js.map": "/static/js/main.dc77a01c.chunk.js.map",
+    "main.js": "/static/js/main.d0d1e5d9.chunk.js",
+    "main.js.map": "/static/js/main.d0d1e5d9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.01539f98.js",
     "runtime-main.js.map": "/static/js/runtime-main.01539f98.js.map",
-    "static/js/2.08d207e0.chunk.js": "/static/js/2.08d207e0.chunk.js",
-    "static/js/2.08d207e0.chunk.js.map": "/static/js/2.08d207e0.chunk.js.map",
+    "static/js/2.051a5572.chunk.js": "/static/js/2.051a5572.chunk.js",
+    "static/js/2.051a5572.chunk.js.map": "/static/js/2.051a5572.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.6d5876ea.chunk.css.map": "/static/css/main.6d5876ea.chunk.css.map",
-    "static/js/2.08d207e0.chunk.js.LICENSE.txt": "/static/js/2.08d207e0.chunk.js.LICENSE.txt",
+    "static/js/2.051a5572.chunk.js.LICENSE.txt": "/static/js/2.051a5572.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/static/media/FjallaOne-Regular.b8a8342b.ttf",
     "static/media/background.574dd448.mp4": "/static/media/background.574dd448.mp4",
     "static/media/chrysler.bdc76fe5.jpg": "/static/media/chrysler.bdc76fe5.jpg",
@@ -40,8 +40,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.01539f98.js",
-    "static/js/2.08d207e0.chunk.js",
+    "static/js/2.051a5572.chunk.js",
     "static/css/main.6d5876ea.chunk.css",
-    "static/js/main.dc77a01c.chunk.js"
+    "static/js/main.d0d1e5d9.chunk.js"
   ]
 }
