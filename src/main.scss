@@ -4,8 +4,8 @@
 // paragraph font color #6A6A68
 
 .button {
-    // color: #6A6A68 !important;
-    font-family: 'Apercu Pro Bold' !important;
+    color: #252424 !important;
+    font-family: 'Apercu Pro' !important;
     font-size: 14px;
 
     padding-right: 30px !important;
@@ -15,9 +15,11 @@
 }
 
 .aayushiButton {
-    color: #2C211B !important;
-    font-family: 'Fjalla One';
-    font-size: 20px;
+    color: #252424 !important;
+    // font-family: 'Fjalla One';
+    // font-size: 20px;
+    font-family: 'Apercu Pro' !important;
+    font-size: 16px;
 
     padding-right: 30px;
     padding-left: 30px;
@@ -36,19 +38,14 @@
 }
 
 .buttonGroup {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-    // display: flex;
-    // justify-content: space-between;
-
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-
-    background-color: #F3F4F9 !important;
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    position:absolute;
+    top:0;
+    width:100%;
+    z-index:1;
 }
 
 

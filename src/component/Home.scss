@@ -3,56 +3,44 @@
 // header font color #2C211B
 // paragraph font color #6A6A68
 
-.home {
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 12%;
-    padding-bottom: 12%;
-    width: 100%;
-
-    overflow: auto;
+.video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
-.hello {
-    color: #FF9900;
-    font-family: 'Apercu Pro Bold';
-    font-size: 30px;
+.center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .name {
-    color: #6A6A68;
-    font-family: 'Apercu Pro Bold';
-    font-size: 30px;
-}
-
-.position {
     color: #2C211B;
+    //color: white;
     font-family: 'Fjalla One';
-    font-size: 80px;
-    line-height: 120%;
+    font-size: 90px;
+    line-height: 100%;
 }
 
 .intro {
-    color: #6A6A68;
+    color: #2C211B;
+    //color: white;
     font-family: 'Apercu Pro Regular';
     font-size: 16px;
-}
-
-.landing {
-    display: inline-block;
-}
-
-.graphicPadding {
-    padding-left: 5%;
-    padding-right: 5%;
-    float: right;
-}
-
-.graphic {
-    max-width: 400px;
-    width: 100%;
-    height: undefined;
-    display: block;
 }
 
 .resume {
@@ -60,86 +48,49 @@
 }
 
 .resumeButton {
-    color: #FF9900 !important;
-    font-family: 'Apercu Pro Bold' !important;
-    border-color: #FF9900 !important;
+    color: #2C211B !important;
+    font-family: 'Apercu Pro' !important;
+    border-color: #2C211B !important;
     font-size: 14px !important;
     padding-top: 5px;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 5px;
+
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .resumeButton:hover {
-    background-color: #FF9900 !important;
+    background-color: #2C211B !important;
     color: white !important;
 }
 
-.aboutMe {
-    padding-left: 10%;
-    padding-right: 10%;
-    // padding-top: 8%;
-    padding-top: 100px;
-    padding-bottom: 12%;
-    width: 100%;
+.btn:focus {
+    outline: none;
+    box-shadow: none;
 }
 
-.whiteBlock {
-    padding-top: 2%;
-    padding-bottom: 2%;
-
-    display: inline-block;
+a:link {
+    text-decoration: none;
 }
 
-.pfp {
-    max-width: 500px;
-    width: 100%;
-    height: undefined;
-    display: block;
-
-    float: left;
-
-    padding-right: 6%;
-    padding-left: 6%;
-    // padding-top: 5%;
-    padding-bottom: 9%;
+a:visited {
+    text-decoration: none;
 }
 
-.paragraph {
-    padding: 0% 0;
+a:hover {
+    text-decoration: none;
 }
 
-.lines {
-    padding: 1% 0;
+a:active {
+    text-decoration: none;
 }
 
-.aboutTitle {
-    color: #2C211B;
-    font-family: 'Fjalla One';
-    font-size: 200%;
-    margin-right: 5px;
+.home {
+    position: relative;
 }
 
-.underline {
-    background-color: #2C211B;
-    height: 5px;
-    width: 60px;
-    line-height: 5px;
-    font-size: 3px;
-    line-height: 30%;
-    vertical-align: text-top;
-  
-}
-
-.center {
-    padding-top: 6%;
-    text-align: center;
-    padding-bottom: 4%;
-
-}
-
-.fontSize {
-    font-size: 16px;
-    font-family: 'Apercu Pro Regular';
-
-}

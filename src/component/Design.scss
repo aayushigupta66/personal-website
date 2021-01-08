@@ -1,0 +1,20 @@
+img {
+    width: 100%;
+}
+  
+  
+body {
+    background: #f6f6f8;
+}
+  
+.container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 640px;
+}
+
+.gallery {
+    padding: 10%;
+    padding-top: 150px;
+}

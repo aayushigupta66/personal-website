@@ -21,7 +21,7 @@ class About extends Component {
           
 
           <div> 
-            <img className='pfp' src={profile} />
+            {/* <img className='pfp' src={profile} /> */}
           </div> 
 
           <div className='paragraph'>
