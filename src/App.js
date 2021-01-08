@@ -2,7 +2,7 @@ import React, { useState, setState, Component } from 'react';
 import './main.scss';
 import pdf from './resume.pdf';
 
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link, Redirect } from 'react-router-dom';
 
 import LoadingBar from 'react-top-loading-bar'
 
@@ -19,21 +19,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function App() {
 
-  const [page, setPage] = useState('home');
   const [progress, setProgress] = useState(0)
-
-  const returnPage = () => {
-    switch(page) {
-      case 'home':
-        return <Home />;
-      case 'about': 
-        return <Work />;
-      case 'work':
-        return <Work />;
-      case 'design':
-        return <Design />;
-    }
-  }
 
   return (
     <div className='App'>
@@ -48,22 +34,30 @@ function App() {
       {/* navbar */}
         <div className='buttonGroup'>
         <Navbar collapseOnSelect expand="lg" >
-          <Navbar.Brand className='aayushiButton' href="#home" onClick={() => { setPage('home'); setProgress(100); }}>AAYUSHI GUPTA</Navbar.Brand>
+          <Navbar.Brand className='aayushiButton' href="/home" onClick={() => { setProgress(100); }}>AAYUSHI GUPTA</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
             </Nav>
             <Nav>
-              <Nav.Link className='button' href="#work" onClick={() => { setPage('work'); setProgress(100); }}>WORK</Nav.Link>
-              <Nav.Link className='button' href="#design" onClick={() => { setPage('design'); setProgress(100); }}>DESIGN</Nav.Link>
-              <Nav.Link className='button' eventKey={2} href="#about" onClick={() => { setPage('about'); setProgress(100); }}>ABOUT</Nav.Link>
+              <Nav.Link className='button' href="/work" onClick={() => { setProgress(100); }}>WORK</Nav.Link>
+              <Nav.Link className='button' href="/design" onClick={() => { setProgress(100); }}>DESIGN</Nav.Link>
+              <Nav.Link className='button' href="/about" onClick={() => { setProgress(100); }}>ABOUT</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
         </div>
       
       {/* redirect pages */}
-      {returnPage()}
+      <Switch>
+        <Route exact path="/Home" component={Home} />
+        <Route exact path="/">
+          <Redirect to="/Home" />
+        </Route>
+        <Route exact path="/Work" component={Work} />
+        <Route exact path="/Design" component={Design} />
+        <Route exact path="/About" component={Work} />
+      </Switch>
     </div>
 
   );
