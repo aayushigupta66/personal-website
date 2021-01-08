@@ -64,7 +64,7 @@ const images = [
     
 ];
 
-const columnsCountBreakPoints = { 250: 1, 750: 2, 1500: 3 };
+const columnsCountBreakPoints = { 250: 1, 750: 2, 900: 3 };
 
 
 class Work extends Component {
@@ -77,7 +77,12 @@ class Work extends Component {
             <ResponsiveMasonry columnsCountBreakPoints={columnsCountBreakPoints}>
                 <Masonry gutter={10}>
                     {images.map((image) => (
-                    <img src={image} />
+                    // <img src={image} />
+                    <div className="item">
+                    <a href={image} target="_blank" data-fancybox="gallery">
+                      <img src={image} alt="Mountain reflection on lake"/>
+                    </a>
+                    </div>
                     ))}
                 </Masonry>
             </ResponsiveMasonry>
