@@ -50,13 +50,13 @@ function App() {
       
       {/* redirect pages */}
       <Switch>
-        <Route exact path="/Home" component={Home} />
+        <Route exact path="/home" component={Home} />
         <Route exact path="/">
-          <Redirect to="/Home" />
+          <Redirect to="/home" />
         </Route>
-        <Route exact path="/Work" component={Work} />
-        <Route exact path="/Design" component={Design} />
-        <Route exact path="/About" component={Work} />
+        <Route exact path="/work" component={Work} />
+        <Route exact path="/design" component={Design} />
+        <Route exact path="/about" component={Work} />
       </Switch>
     </div>
 
