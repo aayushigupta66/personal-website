@@ -49,13 +49,13 @@ function App() {
       
       {/* redirect pages */}
       <Switch>
-        <Route exact path="/home" component={Home} />
-        <Route exact path="/">
+        <Route exact path={process.env.PUBLIC_URL + '/home'} component={Home} />
+        <Route exact path={process.env.PUBLIC_URL + '/'}>
           <Redirect to="/home" />
         </Route>
-        <Route exact path="/work" component={Work} />
-        <Route exact path="/design" component={Design} />
-        <Route exact path="/about" component={Work} />
+        <Route exact path={process.env.PUBLIC_URL + '/work'} component={Work} />
+        <Route exact path={process.env.PUBLIC_URL + '/design'} component={Design} />
+        <Route exact path={process.env.PUBLIC_URL + '/about'} component={Work} />
       </Switch>
     </div>
 
