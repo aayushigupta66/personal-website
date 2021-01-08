@@ -9,7 +9,6 @@ class About extends Component {
   render() {
     return (
       <>
-        <a id='about'>    </a>
         <div className='aboutMe'>
         
         <div className='whiteBlock box'>

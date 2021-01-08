@@ -23,7 +23,6 @@ function App() {
 
   return (
     <div className='App'>
-      <a id='home'> </a>
       <LoadingBar
         color="white"
         progress={progress}

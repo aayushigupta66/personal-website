@@ -71,8 +71,6 @@ class Work extends Component {
   render() {
     return (
       <>
-        <a id='work'>    </a>
-
         <div className="gallery">
             <ResponsiveMasonry columnsCountBreakPoints={columnsCountBreakPoints}>
                 <Masonry gutter={10}>
