@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.c51ce21a.chunk.css",
-    "main.js": "/static/js/main.199e3714.chunk.js",
-    "main.js.map": "/static/js/main.199e3714.chunk.js.map",
+    "main.css": "/static/css/main.6d5876ea.chunk.css",
+    "main.js": "/static/js/main.596420fa.chunk.js",
+    "main.js.map": "/static/js/main.596420fa.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.01539f98.js",
     "runtime-main.js.map": "/static/js/runtime-main.01539f98.js.map",
     "static/js/2.a118f1e6.chunk.js": "/static/js/2.a118f1e6.chunk.js",
     "static/js/2.a118f1e6.chunk.js.map": "/static/js/2.a118f1e6.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.c51ce21a.chunk.css.map": "/static/css/main.c51ce21a.chunk.css.map",
+    "static/css/main.6d5876ea.chunk.css.map": "/static/css/main.6d5876ea.chunk.css.map",
     "static/js/2.a118f1e6.chunk.js.LICENSE.txt": "/static/js/2.a118f1e6.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/static/media/FjallaOne-Regular.b8a8342b.ttf",
     "static/media/background.574dd448.mp4": "/static/media/background.574dd448.mp4",
     "static/media/chrysler.bdc76fe5.jpg": "/static/media/chrysler.bdc76fe5.jpg",
     "static/media/circle-cropped.095ad011.png": "/static/media/circle-cropped.095ad011.png",
     "static/media/cover.39504f76.jpg": "/static/media/cover.39504f76.jpg",
+    "static/media/coverme1.2959095b.png": "/static/media/coverme1.2959095b.png",
+    "static/media/coverme2.974dcb2a.png": "/static/media/coverme2.974dcb2a.png",
+    "static/media/coverme3.250d4bc6.png": "/static/media/coverme3.250d4bc6.png",
     "static/media/future.62c78557.jpg": "/static/media/future.62c78557.jpg",
     "static/media/graphic.3469d167.png": "/static/media/graphic.3469d167.png",
     "static/media/img1.8fdafa07.jpg": "/static/media/img1.8fdafa07.jpg",
@@ -28,6 +31,9 @@
     "static/media/img7.d6895d96.jpg": "/static/media/img7.d6895d96.jpg",
     "static/media/img8.5a91f30c.jpg": "/static/media/img8.5a91f30c.jpg",
     "static/media/img9.e4400f9f.jpg": "/static/media/img9.e4400f9f.jpg",
+    "static/media/opico1.35a6c083.png": "/static/media/opico1.35a6c083.png",
+    "static/media/opico2.3c5f38fd.png": "/static/media/opico2.3c5f38fd.png",
+    "static/media/opico3.d435eea9.png": "/static/media/opico3.d435eea9.png",
     "static/media/past.cfdade44.jpg": "/static/media/past.cfdade44.jpg",
     "static/media/profile.b52387fd.jpeg": "/static/media/profile.b52387fd.jpeg",
     "static/media/resume.0a42ab0c.pdf": "/static/media/resume.0a42ab0c.pdf"
@@ -35,7 +41,7 @@
   "entrypoints": [
     "static/js/runtime-main.01539f98.js",
     "static/js/2.a118f1e6.chunk.js",
-    "static/css/main.c51ce21a.chunk.css",
-    "static/js/main.199e3714.chunk.js"
+    "static/css/main.6d5876ea.chunk.css",
+    "static/js/main.596420fa.chunk.js"
   ]
 }
