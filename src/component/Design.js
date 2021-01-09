@@ -75,10 +75,9 @@ class Work extends Component {
             <ResponsiveMasonry columnsCountBreakPoints={columnsCountBreakPoints}>
                 <Masonry gutter={10}>
                     {images.map((image) => (
-                    // <img src={image} />
                     <div className="item">
                     <a href={image} target="_blank" data-fancybox="gallery">
-                      <img src={image} alt="Mountain reflection on lake"/>
+                      <img className="zoom" src={image}/>
                     </a>
                     </div>
                     ))}

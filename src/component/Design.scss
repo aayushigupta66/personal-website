@@ -1,8 +1,3 @@
-img {
-    width: 100%;
-}
-  
-  
 body {
     background: #f6f6f8;
 }
@@ -18,7 +13,7 @@ body {
     background: #f6f6f8;
 }
 
-img {
+.zoom {
     opacity: 0.9;
     width: 100%;
     height: 100%;
@@ -27,7 +22,7 @@ img {
 }
   
   
-img:hover {
+.zoom:hover {
     opacity: 1;
     transform: scale(1.03);
 }

@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './Home.scss';
 
-import graphic from '../img/graphic.png';
-import profile from '../img/circle-cropped.png';
 import pdf from '../resume.pdf';
 import background from '../background.mp4';
 

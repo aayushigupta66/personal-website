@@ -55,7 +55,7 @@ function App() {
         </Route>
         <Route exact path={process.env.PUBLIC_URL + '/work'} component={Work} />
         <Route exact path={process.env.PUBLIC_URL + '/design'} component={Design} />
-        <Route exact path={process.env.PUBLIC_URL + '/about'} component={Work} />
+        <Route exact path={process.env.PUBLIC_URL + '/about'} component={About} />
       </Switch>
     </div>
 

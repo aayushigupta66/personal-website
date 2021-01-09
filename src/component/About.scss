@@ -3,15 +3,57 @@
 // header font color #2C211B
 // paragraph font color #6A6A68
 
+.container {
+    padding: 3%;
+    padding-top: 150px;
+}
 
-.infoPadding {
-    padding-left: 50px;
-    padding-right: 75px;
+img {
+    width: 50%;
+    height: auto;
+}
+
+.nameInfo {
+    font-weight: bold;
+    color: #B4B4B4;
+    font-size: 18px;
+}
+
+.workInfo {
+    font-weight: bold;
+}
+
+.dateInfo {
+    font-size: 15px;
+}
+
+.namePadding {
     padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+
+.infoBodyPadding {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .infoBody {
     font-family: 'Apercu Pro Regular';
     color: #2C211B;
-    // color: #6A6A68;
+}
+
+.colPadding {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.gif {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.emoji {
+    padding-right: 20px;
 }
