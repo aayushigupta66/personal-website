@@ -53,7 +53,7 @@ class About extends Component {
       <div class="container">
         <div class="row">
           <div class="col-md colPadding">
-            <img src={img4}/>
+            <img src={img4} className="profile"/>
             
             <div className="namePadding">
               <span className="nameInfo">A LITTLE BIT ABOUT ME</span>
@@ -67,7 +67,7 @@ class About extends Component {
 
             <div className="infoBodyPadding">
               <span className="">
-              When I am not coding or designing, I like to spend my free time dancing or doing outdoor activities such as hiking or skiing. I am a dancer on my university's collegiate competitive dance team - Illini Bhangra. Bhangra is an energetic folk dance that originated from Punjab, India. I truly believe that a picture is worth a thousand words, so I've shared some of my favorites below! 
+              When I am not coding or designing, I like to spend my free time dancing or doing outdoor activities such as hiking or skiing. I am a dancer on my university's collegiate competitive dance team - Illini Bhangra. Bhangra is an energetic folk dance that originated from Punjab, India. I believe that a picture is worth a thousand words, so I've shared some of my favorites below! 
               </span>
             </div>
 

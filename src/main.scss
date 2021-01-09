@@ -18,13 +18,13 @@
     color: #252424 !important;
     // font-family: 'Fjalla One';
     // font-size: 20px;
-    font-family: 'Apercu Pro Regular' !important;
+    // font-family: 'Apercu Pro Regular' !important;
     font-size: 16px;
 
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    // padding-right: 30px;
+    // padding-left: 30px;
+    // padding-top: 10px;
+    // padding-bottom: 10px;
 
     border-color: transparent;
     border: none;
@@ -40,10 +40,12 @@
 .buttonGroup {
     padding-top:30px;
     padding-bottom:30px;
-    padding-left: 60px;
-    padding-right: 60px;
-    position:absolute;
-    top:0;
+    // padding-left: 60px;
+    // padding-right: 60px;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: absolute;
+    top: 0;
     width:100%;
     z-index:1;
 }
