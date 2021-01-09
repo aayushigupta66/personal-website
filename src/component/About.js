@@ -1,15 +1,55 @@
 import React, { Component } from 'react';
+import Masonry, {ResponsiveMasonry} from "react-responsive-masonry";
 import './About.scss'
 
 import img4 from '../img/img4.png';
 
-import gif from '../img/bhangra.gif'
+import gif from '../img/about/bhangra.gif';
+
+import bhangra1 from '../img/about/bhangra1.jpg';
+import bhangra2 from '../img/about/bhangra2.jpg';
+
+import travel1 from '../img/about/travel1.JPG';
+import travel2 from '../img/about/travel2.JPG';
+import travel3 from '../img/about/travel3.JPG';
+import travel4 from '../img/about/travel4.JPG';
+import travel5 from '../img/about/travel5.JPG';
+import travel6 from '../img/about/travel6.JPG';
+import travel7 from '../img/about/travel7.JPG';
+import travel8 from '../img/about/travel8.JPG';
+
+
+
 
 const email = "aayushigupta66@gmail.com";
+
+const images = [
+    
+    
+    travel4,
+    travel1,
+    travel5,
+
+    bhangra1,
+    bhangra2,
+    gif,
+
+    travel2,
+    travel6,
+    travel7,
+    travel8,
+    
+
+    
+    
+];
+
+const columnsCountBreakPoints = { 250: 1, 750: 2, 900: 3 };
 
 class About extends Component {
   render() {
     return (
+      <>
       <div class="container">
         <div class="row">
           <div class="col-md colPadding">
@@ -27,11 +67,12 @@ class About extends Component {
 
             <div className="infoBodyPadding">
               <span className="">
-                When I am not coding, I like to spend my free time dancing or travelling. I am a dancer on my univeristy's collegiate competitive dance team - Illini Bhangra. Bhangra is an energetic, folk dance that originated from Punjab, India.
+              When I am not coding or designing, I like to spend my free time dancing or doing outdoor activities such as hiking or skiing. I am a dancer on my university's collegiate competitive dance team - Illini Bhangra. Bhangra is an energetic folk dance that originated from Punjab, India. I truly believe that a picture is worth a thousand words, so I've shared some of my favorites below! 
               </span>
             </div>
 
-            <img src={gif} alt="loading..." className="gif"/>
+
+            {/* <img src={gif} alt="loading..." className="gif"/> */}
 
           </div>
 
@@ -96,6 +137,22 @@ class About extends Component {
           </div>
         </div>
       </div>
+
+            <div className="aboutGallery">
+            <ResponsiveMasonry columnsCountBreakPoints={columnsCountBreakPoints}>
+                <Masonry gutter={10}>
+                    {images.map((image) => (
+                    <div className="item">
+                    {/* <a href={image} target="_blank" data-fancybox="gallery"> */}
+                      <img className="zoom" src={image}/>
+                    {/* </a> */}
+                    </div>
+                    ))}
+                </Masonry>
+            </ResponsiveMasonry>
+            </div>
+
+      </>
     );
   }
 }
