@@ -34,18 +34,27 @@ import opico1 from '../img/design/opico1.png';
 import opico2 from '../img/design/opico2.png';
 import opico3 from '../img/design/opico3.png';
 
+// ipad graphics 
+import graphic1 from '../img/design/graphic1.png';
+import graphic2 from '../img/design/graphic2.png';
+import graphic3 from '../img/design/graphic3.png';
+
 
 const images = [
+
     coverme1,
     coverme2,
     coverme3,
 
     opico1,
-    // opico2,
     opico3,
     
     past, 
     future,
+
+    graphic1,
+    graphic2, 
+    graphic3, 
 
     img8,
     img9,
